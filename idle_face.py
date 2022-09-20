@@ -4,7 +4,6 @@ __author__ = 'Sev0r & The_question'
 
 # pip install pygame
 import pygame
-import py
 
 FPS = 60
 width = 800
