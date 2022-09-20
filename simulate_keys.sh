@@ -12,40 +12,40 @@ while true; do
 
 sleep $time
 echo c$i 
-xdotool key --window ${winid}--delay 10 $i+c
+echo c$i > ./current_value.txt
 sleep $time
 echo c#$i
-xdotool key --window ${winid}--delay 10 $i+k
+echo c#$i > ./current_value.txt
 sleep $time
 echo d$i 
-xdotool key --window ${winid}--delay 10 $i+d
+echo d$i  > ./current_value.txt
 sleep $time
 echo d#$i
-xdotool key --window ${winid}--delay 10 $i+b
+echo d#$i > ./current_value.txt
 sleep $time
 echo e$i
-xdotool key --window ${winid}--delay 10 $i+e
+echo e$i > ./current_value.txt
 sleep $time
 echo f$i
-xdotool key --window ${winid}--delay 10 $i+f
+echo f$i > ./current_value.txt
 sleep $time
 echo f#$i
-xdotool key --window ${winid}--delay 10 $i+v
+echo f#$i > ./current_value.txt
 sleep $time
 echo g$i
-xdotool key --window ${winid}--delay 10 $i+g
+echo g$i > ./current_value.txt
 sleep $time
 echo g#$i
-xdotool key --window ${winid}--delay 10 $i+p
+echo g#$i > ./current_value.txt
 sleep $time
 echo a$i
-xdotool key --window ${winid}--delay 10 $i+a
+echo a$i > ./current_value.txt
 sleep $time
 echo a#$i
-xdotool key --window ${winid}--delay 10 $i+o
+echo a#$i > ./current_value.txt
 sleep $time
 echo h$i
-xdotool key --window ${winid}--delay 10 $i+h
+echo h$i > ./current_value.txt
 
 i=$((i+1))
 
