@@ -1,0 +1,6 @@
+[2022-09-17 04:29:04] Note played: F2
+[2022-09-17 04:29:05] Note played: F#2
+[2022-09-17 04:29:06] Note played: G2
+[2022-09-17 04:29:06] Note played: G#2
+[2022-09-17 04:29:07] Note played: A2
+[2022-09-17 04:29:07] Note played: F2
